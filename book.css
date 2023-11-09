@@ -1,0 +1,180 @@
+body{
+    background-image: url(nattu-adnan-Ai2TRdvI6gM-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand {
+    margin: 10px;
+}
+.carousel{
+    margin: 70px ;
+    width: 700px;
+    height: 450px;
+
+}
+.container-fluid{
+    box-shadow: 1px 2px 10px black;
+
+  /*  margin: 0 10px 0 10px; */
+}
+.container{
+    box-shadow: 1px 2px 10px black;
+    color: white;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: -450px;
+    background-color: rgba(1,144,189,0.6);
+    padding: 40px;
+}
+.footer{
+    box-shadow: 1px 2px 10px black;
+    height: 200px;
+    
+}
+.footer-head-name{
+    margin-top: 140px;
+    padding: 40px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-contact{
+    margin-left: 380px;
+    margin-top: -190px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-bottom{
+    margin: 60px 0;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.footer-contact .btn{
+    margin-left: -10px;
+}
+.footer-head-name .btn{
+    margin-left: -10px;
+}
+.con-book{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(116, 241, 255, 0.5);
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px;
+}
+/* .con-book .input-container{
+    width: 280px;
+    position: relative;
+}
+.con-book .label{
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #b3b3b3;
+}
+.con-book .text-input{
+    padding: 0.8rem;
+    margin: 0.5rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #2f2c45;
+    background: #272530;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: #fff;
+}
+.con-book .label::before{
+    content: "";
+    height: 5px;
+    background: #272530;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+    z-index: -1;
+}
+.con-book .text-input:focus{
+    border:2px solid #7e4ccb;
+}
+.con-book .text-input:focus + .label,.filled{
+    top: -0px;
+    color: #fff;
+    font-size: 14px;
+}
+.con-book .text-input::placeholder{
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.con-book .text-input:focus::placeholder{
+    opacity: 1;
+} */
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 900px;
+    border-radius: 10px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+form button{
+    padding: auto;
+    background: rgb(255, 82, 82);
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+form h5{
+    background: rgba(120, 240, 248, 0.542); 
+    border-radius: 10px; 
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+}
+.booking .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0 0 0 369px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+      .b1 {
+        background-color: #71aaff; 
+        color: black; 
+        border: 2px solid #71aaff;
+      }
+      
+      .b1:hover {
+        background-color: #71aaff;
+        color: white;
+      }
